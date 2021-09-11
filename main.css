@@ -81,7 +81,7 @@ header h1 {
   
   .projects ul li a
    {
-    color:rgb(32, 169, 173);
+    color:black;
     text-decoration: none;
     pointer-events: all;
   }
