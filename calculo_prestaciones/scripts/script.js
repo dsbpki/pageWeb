@@ -43,7 +43,6 @@ function totalPrestaciones(){
     document.getElementById("intereses_cesantias").value=interesCesantia;
     document.getElementById("vacaciones").value = vacaciones;
 
-
     document.getElementById("total_prestaciones").value= total;
 
 }

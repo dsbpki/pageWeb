@@ -7,16 +7,21 @@ html {
     font-size: 62.5%;
     font-family: sans-serif;
 }
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 header{
     background-color: whitesmoke;
     position: relative;
-    height: 20vh;
+    height: 10vh;
+    display: flex;
    
 }
 header h1 {
     position: relative;
-    font-size: 2.4rem;
-    top: 50px;
+    font-size: 3rem;
+    top: 10px;
     margin: auto;
     color: #ffe75e;
     
@@ -103,47 +108,51 @@ header h1 {
   }
 
 
-
-
-
-
-/* ///////////////////// */
-body{
+  body main{
+    
     text-align: center;
+    height: 90vh;
+    background-color: #df9b63;
 }
-fieldset form{
-    position: relative;
-    /* top: 50px; */
-    padding: 20px;
-    background-color: #ffe75e;
-}
-fieldset form {
-    text-align: center;
-    font-size: 1.4rem;
-
-}
-fieldset form label{
-    color: white;
+body main ul{
+    position: absolute;
+    top: 90px;
+    width: 100vw;
+    height: fit-content;
+    display: block;
+    justify-content: space-evenly;
+    align-content: center;
+    list-style: none;
 }
 
-fieldset form button{
+body main ul img{
+    width: 250px;
+    height: auto;
+}
+
+body main ul li a{
+    color: #ffe75e;
     font-size: 1.8rem;
-    width: 200px;
-    height: 90px;
-    border-radius: 5px;
-    background-color: #ffd900;
-    color: white;
+    
 }
+
+
+
 
 footer{
-  background-color: whitesmoke;
-}
-footer ul{
-  display: flex;
-  justify-content: space-around;
-  list-style: none;
-}
-footer ul li a{
-  font-size: 1.8rem;
-  color: #ffb45e;
-}
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 20px;   
+    background-color: whitesmoke;
+  }
+  footer ul{
+    
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+  }
+  footer ul li a{
+    font-size: 1.8rem;
+    color: #ffb45e;
+  }
