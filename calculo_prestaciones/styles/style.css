@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+header{
+    background-color: whitesmoke;
+    position: relative;
+    height: 20vh;
+   
+}
+header h1 {
+    position: relative;
+    font-size: 2.4rem;
+    top: 50px;
+    margin: auto;
+    color: #ffe75e;
+    
+}
+/* asfasf///////////////////// */
+.dropdown {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 50px;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .projects {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    align-items:center;
+    right: 0;
+
+  }
+  
+  .projects ul {
+    margin-top: 30px;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    background: white;
+    right: 0;
+    list-style: none;
+    border-radius: 5px;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-10px);
+    transition: all 0.4s ease;
+  }
+  .projects li
+   {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .projects li:hover {
+    background-color: rgb(197, 173, 181);
+  }
+  
+  .projects ul li a
+   {
+    color:rgb(32, 169, 173);
+    text-decoration: none;
+  }
+  
+  .dropdown button
+   {
+    /* background: none;
+    text-decoration: none;
+    border: none; */
+    position: absolute;
+    right: 0;
+    color: white;
+    background-color:#ffe75e ;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .projects button:focus + ul
+   {
+    opacity: 1;
+    pointer-events: all;
+    transform: translateY(0px);
+  }
+
+
+
+
+
+
+/* ///////////////////// */
+body{
+    text-align: center;
+}
+fieldset {
+    position: relative;
+    /* top: 50px; */
+    padding: 20px;
+    background-color: #ffe75e;
+}
+fieldset form {
+    text-align: center;
+    font-size: 1.4rem;
+
+}
+fieldset form label{
+    color: white;
+}
+
+fieldset form button{
+    font-size: 1.8rem;
+    width: 200px;
+    height: 90px;
+    border-radius: 5px;
+    background-color: #ffd900;
+    color: white;
+}
+
+footer{
+  background-color: whitesmoke;
+}
+footer ul{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+footer ul li a{
+  font-size: 1.8rem;
+  color: #ffe75e;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="./styles/style.css">   
+    <script src="./scripts/script.js"></script>
+    <title>Calculo prestaciones sociales</title>
+</head>
+<body>
+    <header>
+        <h1>Calculo Prestaciones Sociales</h1>
+        <div class="dropdown">
+            <div class="projects">
+              <button>Menu</button>               
+                <ul>
+                    <li><a href="#">Calculo areas geometricas</a></li>
+                    <li><a href="#">Estadistica</a></li>
+                    <li><a href="#">Juego Simon Dice</a></li>
+                    <li><a href="#">Youtube App</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    
+    <fieldset>
+        <form action="" id="form1">
+            <label for="">
+                Ingrese salario mensual
+            </label>
+            <br>
+            <input type="number" id="salario">
+            <br>
+            <br>
+            <label for="">
+                Ingrese comisiones
+            </label>
+            <br>
+            <input type="number" id="comisiones">
+            <br>
+            <br>
+            <label for="">
+                Ingrese auxilio transporte
+            </label>
+            <br>
+            <input type="number" id="transporte">
+            <br>
+            <br>
+            <label for="">El total devengado es</label>
+            <br>
+            <input type="number" id="total_devengado" readonly>               
+            <br>
+            <br>
+            <label for="">
+                Prima de servicios
+            </label>
+            <br>
+            <input type="number" id="prima_servicios" readonly >   
+            <br> 
+            <br>
+            <label for="">
+                Cesantias
+            </label>
+            <br>
+            <input type="number" id="cesantias" readonly>
+            <br>
+            <br>
+            <label for="">
+                Intereses cesantias
+            </label>
+            <br>
+            <input type="number" id="intereses_cesantias" readonly>
+            <br>       
+            <br>
+            <label for="">
+                Vacaciones
+            </label>
+            <br>
+            <input type="number" id="vacaciones" readonly>                  
+            <br>
+            <br>
+            <label for="">
+                Total prestaciones sociales
+            </label>
+            <br>
+            <input type="number" id="total_prestaciones" readonly >
+            <br>
+            <br>
+            <button type="button" onclick="totalPrestaciones()">Calcular Total Prestaciones</button>
+            
+        </form>
+    </fieldset>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="https://www.facebook.com/david.benjumeaperez">Facebook</a></li>
+                <li><a href="https://www.instagram.com/davidbenjumea94/">Instagram</a></li>
+                <li><a href="https://twitter.com/benjumea_perez">Twiter</a></li>
+            </ul>
+        </nav>
+    </footer>
+    
+    
+</body>
+</html>
